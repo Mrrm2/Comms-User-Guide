@@ -10,4 +10,6 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfencesd
+  - attr_list
+  - md_in_html
