@@ -9,9 +9,9 @@ Before continuing with the guide, make sure you have git installed.
 2. Run the following command to verify you have git installed: `git -v`.  
    ![Git Version](images/verifyGitInstalled.png)
 
-## Creating a Repository
+## Creating a Repository and Pushing to GitHub
 
-1. First, create a GitHub account by going to https://github.com and signing up. If you already have an account, log in to your account.
+1. First, create a GitHub account by going to <https://github.com/join> and signing up. If you already have an account, log in to your account.
 
 2. After logging in, click on the “+” sign in the top right corner of the page and select “New repository” from the dropdown menu.
 
@@ -41,6 +41,4 @@ Before continuing with the guide, make sure you have git installed.
 
 15. Finally, use the “git push” command to push your local repository to the remote repository on GitHub. For example, type “git push -u origin master” into the terminal. The “-u” flag sets the upstream branch to “master”, which is the default branch on GitHub.
 
-16. Congratulations! You have successfully created a repository and pushed your code to GitHub.
-
-## Pushing Your Code
+Congratulations! You have successfully created a repository and pushed your code to GitHub.
