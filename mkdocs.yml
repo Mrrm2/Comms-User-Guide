@@ -2,11 +2,12 @@ site_name: Pycharm and Git User Guide
 theme:
   name: material
   palette:
-    primary: lime
+    primary: deep orange
+
+  features:
+    - toc.integrate
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
-
