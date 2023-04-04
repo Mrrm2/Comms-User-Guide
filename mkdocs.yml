@@ -1,4 +1,4 @@
-site_name: Pycharm and Git User Guide
+site_name: Using Git, GitHub, and Visual Studio Code to Manage Your Code
 theme:
   name: material
   palette:
@@ -10,6 +10,13 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfencesd
+  - pymdownx.superfences
   - attr_list
   - md_in_html
+
+nav:
+  - Home: 'index.md'
+  - 'gettingStarted.md'
+  - 'Pulling.md'
+  - 'forksAndPR.md'
+  - 'glossary.md'
