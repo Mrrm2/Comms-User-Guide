@@ -50,20 +50,24 @@ You can register for a github account at <https://github.com/join>.
 
 #### Installing git
 
-1. Install git by following the specific instructions for your operating system at <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>.
+1. Install Git by following the specific instructions for your operating system at <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>.
 2. Navigate to the bottom left of the screen and click the search bar.
 3. Type cmd and press enter to open a command prompt window.
    <br />
    <img src="/images/openTerminal.png" alt= "Opening command prompt" width="650px">
    <br />
    <br />
-4. Verify you have git installed by running the following command `git -v`.
+4. Verify you have Git installed by running the following command `git -v`.
    <br />
-   <img src="/images/verifyGitInstalled.png" alt= "Checking version of git installed" width="650px">
+   <img src="/images/verifyGitInstalled.png" alt= "Checking version of Git installed" width="650px">
    <br />
    <br />
 
-5. Your command prompt should display your current git version if you have successfully installed git.
+5. Your command prompt should display your current Git version if you have successfully installed git.
+
+!!! Tip
+
+     If you are unsure what a command does, you can type `git help <command>` into the terminal to get more information about the command. For example, if you want to know what the `git -v` command does, type `git help -v` into the terminal.
 
 #### Installing Visual Studio Code
 

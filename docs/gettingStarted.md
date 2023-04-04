@@ -10,26 +10,6 @@
       <li> Installed Visual Studio Code </li>
     </ul>
 
-## Verifying Git is installed
-
-1. Open a terminal window by navigating to your search bar and typing `cmd`. Press enter to open the command prompt.
-   <br />
-   <br />
-   <img src="/images/openTerminal.png" alt= "Opening command prompt" width="650px">
-   <br />
-   <br />
-2. Verify you have Git installed by running the following command `git -v`.
-   <br />
-   <br />
-   <img src="/images/verifyGitInstalled.png" alt= "Checking version of Git installed" width="650px">
-   <br />
-   <br />
-3. Your command prompt should display your current Git version if you have successfully installed git.
-
-!!! Tip
-
-     If you are unsure what a command does, you can type `git help <command>` into the terminal to get more information about the command. For example, if you want to know what the `git -v` command does, type `git help -v` into the terminal.
-
 ## Creating a Remote Repository
 
 1.  First, navigate to <https://github.com> and log into your GitHub account. If you do not have an account, create a GitHub account by going to <https://github.com/join>.

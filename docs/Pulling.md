@@ -1,5 +1,7 @@
 # Pulling and Resolving Merge Conflicts
 
+Since GitHub is a collaborative platform, others can contribute to a repository as well. You may find that the copy of the repository on your computer is different from what is on GitHub. Therefore, it is important to know how to pull changes from a remote repository and resolve merge conflicts. This guide will walk you through the process of pulling changes from a remote repository and resolving merge conflicts.
+
 ## Pulling from a remote repository
 
 1. First, navigate to the directory on your local machine where you want to store the files from the repository. You can do this in the terminal or command prompt by using the “cd” command. For example, type “cd Documents/GitHub/my-repo” to navigate to a directory called “my-repo” in your “Documents/GitHub” folder.
