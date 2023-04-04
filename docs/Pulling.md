@@ -4,24 +4,88 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
 
 ## Pulling from a remote repository
 
-1. First, navigate to the directory on your local machine where you want to store the files from the repository. You can do this in the terminal or command prompt by using the “cd” command. For example, type “cd Documents/GitHub/my-repo” to navigate to a directory called “my-repo” in your “Documents/GitHub” folder.
+1.  First, open Visual Studio Code and open the directory of your local repository. You can do this by clicking on the “File” menu and selecting “Open Folder”. Alternatively, you can open the directory by clicking on the “Open” button in the “Explorer” tab.
 
-2. Next, use the “git clone” command to clone the repository from GitHub to your local machine. To do this, copy the URL of the repository from GitHub and paste it into the terminal after the “git clone” command. For example, type “git clone https://github.com/username/repo.git” to clone a repository called “repo” from a user called “username” on GitHub.
+2.  Open a terminal instance by clicking on the “Terminal” tab and selecting “New Terminal”. Ensure that the terminal directory is the directory of your local repository.
 
-3. After cloning the repository, navigate into the repository’s directory using the “cd” command. For example, type “cd repo” to enter the “repo” directory.
+    !!! Tip "Tip"
 
-4. Use the “git pull” command to pull any changes made to the repository since you cloned it. For example, type “git pull origin master” to pull changes from the “master” branch of the repository. This will update your local repository with the latest changes from GitHub.
+          If you are not sure what directory you are in, you can use the `pwd` command to print the working directory.
+          If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
 
-5. If there are any merge conflicts between the changes you pulled and the changes you made locally, you will need to resolve them before you can commit and push your changes back to GitHub. You can check if there are any conflicts by using the “git status” command. Conflicts will be marked as “both modified” or “unmerged” files. If there are no conflicts, you can skip to the next section.
+3.  Before you pull any changes, you should first check the status of your local repository. Input the following commands into the terminal:
+
+    ```bash
+    git remote update
+    git status
+    ```
+
+    If you do have uncommitted changes, you will need to commit them before you can pull any changes from GitHub. Please refer to the [Getting Started](/gettingStarted/#adding-files-to-the-repository) page for instructions on committing changes. If you do not have any uncommitted changes or have committed your changes, you can proceed to the next step.
+    <br />
+    <br />
+    <img src="/images/pulling/gitStatus.png" alt= "Checking local repository" width="650px">
+    <br />
+
+    !!! Info "`git remote update` and `git status`"
+
+        The `git remote update` command will update the local repository with the latest changes from GitHub. The `git status` command will check the status of your local repository. This will show you if you have any uncommitted changes.
+
+4.  Use the `git pull` command to pull any changes made to the repository. This will update your local repository with the latest changes from GitHub. You should see a description of the changes that were pulled from GitHub.
+    <br />
+    <br />
+    <img src="/images/pulling/gitPull.png" alt= "Pulling code from repository" width="650px">
+    <br />
+
+    !!! Success "Success"
+
+        If you do not receive any error messages, you have successfully pulled the latest changes from GitHub. You can now continue working on your project!
+
+    !!! Warning "Merge conflicts"
+
+        If you receive a message that says `Automatic merge failed; fix conflicts and then commit the result`, this means that there are merge conflicts in your local repository. You will need to resolve the merge conflicts before you can push your changes to GitHub. Please refer to the [Resolving merge conflicts](#resolving-merge-conflicts) section for instructions on resolving merge conflicts.
+
+5.  If you receive additional error messages, please refer to the [Troubleshooting](/docs/troubleshooting) page for help.
 
 ## Resolving merge conflicts
 
-1. To resolve conflicts, open the file(s) with conflicts in a text editor and look for the conflict markers, which look like “<<<<<<<”, “=======”, and “>>>>>>>”. These markers indicate where the changes from both sides of the conflict begin and end.
+When working as a team, it is possible that you and your team members will make changes to the same file. When this happens, Git will not be able to automatically merge the changes. Instead, Git will mark the file as having a merge conflict. You will need to resolve the merge conflict before you can push your changes to GitHub. Merge conflicts might seem daunting the first time you encounter them, but this guide will walk you through the process of resolving merge conflicts using Visual Studio Code.
 
-2. Edit the file to resolve the conflict by keeping the changes you want and deleting the markers and conflicting lines. Save the file.
+1.  Identify the file(s) with conflicts by looking at the output of the `git pull` command. The file(s) with conflicts will be listed in the output. For example, the image below shows that the file `file1.html` has conflicts.
+    <br />
+    <br />
+    <img src="/images/pulling/gitConflict.png" alt= "Merge conflict" width="650px">
+    <br />
 
-3. After resolving all conflicts, add the changes to the staging area using the “git add” command. For example, type “git add file-with-conflicts.txt” to add a file called “file-with-conflicts.txt” to the staging area.
+2.  Open the file(s) with conflicts in Visual Studio Code and look for the conflict markers which look like “<<<<<<<”, “=======”, and “>>>>>>>”. Below is an example of what you might see in a file with conflicts.
+    <br />
+    <br />
+    <img src="/images/pulling/gitMerge.png" alt= "Merge conflict file" width="650px">
+    <br />
 
-4. Use the “git commit” command to commit the changes with a message describing the conflict resolution. For example, type “git commit -m ‘Resolve merge conflict in file-with-conflicts.txt’”.
+    These markers indicate where the changes from both sides of the conflict begin and end.
 
-5. Finally, use the “git push” command to push your changes back to GitHub. For example, type “git push origin master” to push changes to the “master” branch of the repository.
+    - The `<<<<<<<` marker indicates the beginning of your changes.
+
+    - The `=======` marker indicates the end of the changes from your local repository and mark the start of the changes from the remote repository.
+
+    - The `>>>>>>>` marker indicates the end of the changes from the remote repository.
+
+3.  Edit the file to resolve the conflict. You can choose to keep the changes from your local repository, the changes from the remote repository, or a combination of both. Once you have resolved the conflict, remove the conflict markers and save the file. Below is an example of what the file might look like after resolving the conflict.
+    <br />
+    <br />
+    <img src="/images/pulling/gitConflictResolved.png" alt= "Merge conflict file resolved" width="650px">
+    <br />
+
+4.  After resolving all conflicts, add the changes to the staging area using the `git add` command. For example, using the command `git add file1.html` will add a file called `file.html` to the staging area.
+
+5.  Use the `git commit` command to commit the changes with a message describing the conflict resolution. For example, type `git commit -m "Resolve merge conflicts with file1.html"`.
+
+6.  Finally, use the `git push` command to push your changes back to GitHub.
+    <br />
+    <br />
+    <img src="/images/pulling/gitPushResolve.png" alt= "Pushing resolved conflict file" width="650px">
+    <br />
+
+    !!! Success "Congratulations!"
+
+          You have successfully solved your first merge conflict! You can now see your changes on GitHub.
