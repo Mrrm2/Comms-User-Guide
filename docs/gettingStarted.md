@@ -56,7 +56,7 @@
 
 ## Creating a Local Copy of the Repository
 
-1.  You will first need to create a folder on your computer to store the repository. To do this, open your file explorer, navigate to the directory where you want to store your project's code, right click and create a new folder for the project.
+1.  Create a folder on your computer to store the repository. Use file explorer to navigate to the directory where you want to store your project's code, right click and create a new folder for the project.
     <br />
     <br />
     <img src="/images/gettingStarted/createFolder.png" alt= "Create new folder for project" width="650px">
@@ -66,13 +66,13 @@
 
             It is always best practice to create a new folder for each project you work on. This will keep your projects organized and make it easier to find them later.
 
-2.  After creating the folder, open Visual Studio Code and open the directory you just created. To do this, click on the “File” tab in the top left corner of the screen and select “Open Folder”. Navigate to the directory you just created, select it and click the “Select Folder” button.
+2.  Open Visual Studio Code and open the directory you just created. To do this, click on the “File” tab in the top left corner of the screen and select “Open Folder”. Navigate to the directory you just created, select it and click the “Select Folder” button.
     <br />
     <br />
     <img src="/images/gettingStarted/openFolder.png" alt= "Open folder in Visual Studio Code" width="650px">
     <br />
 
-3.  Once you’re inside the directory, open a new terminal instance in your Visual Studio Code by clicking on the “Terminal” tab in the top left of the screen and select “New Terminal”. This will create a new terminal instance in the directory you are currently in.
+3.  Open a new terminal instance in your Visual Studio Code by clicking on the “Terminal” tab in the top left of the screen and select “New Terminal”. This will create a new terminal instance in the directory you are currently in.
     <br />
     <br />
     <img src="/images/gettingStarted/openTerminalVSCode.png" alt= "Open terminal in Visual Studio Code" width="650px">
@@ -131,7 +131,7 @@ After making some changes in your local repository, you can add them to the remo
 
                If at anytime you are unsure about what files are in the staging area, you can type `git status` into the terminal. This will show you a list of all the files in the staging area.
 
-3.  After adding the files to the staging area, commit the changes using the `git commit -m "[Your commit message]"` command. You should see a similar output message in the terminal. Adding a `-m` flag allows you to add a message explaining the changes you made. For example, if you added a new file called `index.html`, you can type `git commit -m "Added index.html"` into the terminal. Others with access to your repository will be able to see this message when they view the commit history.
+3.  After adding the files to the staging area, commit the changes using the `git commit -m "[Your commit message]"` command. Replace the `[Your commit message]` with a message that describes the changes you made. For example, if you added a new file called `index.html`, you can write a commit message like “Add index.html file”.
     <br />
     <br />
     <img src="/images/gettingStarted/gitCommit.png" alt= "Committing the changes" width="650px">
