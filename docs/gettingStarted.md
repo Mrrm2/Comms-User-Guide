@@ -1,4 +1,4 @@
-# Getting Started With Git
+# Getting Started With Git and GitHub
 
 !!! Warning "Prerequisites"
 

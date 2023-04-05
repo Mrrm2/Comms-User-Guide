@@ -1,11 +1,15 @@
-site_name: Using Git, GitHub, and Visual Studio Code to Manage Your Code
+site_name: Using Git, and GitHub to Manage Your Code
 theme:
   name: material
   palette:
-    primary: deep orange
+    primary: indigo
 
   features:
     - toc.integrate
+    - navigation.footer
+
+extra:
+  generator: false
 
 markdown_extensions:
   - admonition
@@ -17,6 +21,6 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - 'gettingStarted.md'
-  - 'Pulling.md'
+  - 'pulling.md'
   - 'forksAndPR.md'
   - 'glossary.md'
