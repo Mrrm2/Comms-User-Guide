@@ -21,6 +21,6 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - 'gettingStarted.md'
-  - 'pulling.md'
+  - 'pullingAndMerge.md'
   - 'forksAndPR.md'
   - 'glossary.md'
