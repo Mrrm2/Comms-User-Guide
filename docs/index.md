@@ -1,13 +1,13 @@
 # Introduction
 
-<!-- TODO -->
+This document is a guide to using [Git](https://git-scm.com/) and [GitHub](https://github.com/). The aim of this guide is to provide a comprehensive introduction to basic Git and GitHub concepts and workflows. We will cover topics such as: creating a repository, pushing and pulling changes, branching, merging, and resolving merge conflicts. By the end of this guide, you should have a basic understanding of how to use Git and GitHub to collaborate with other developers.
 
-State purpose of instructions
-State who the instructions are aimed at
-Add notes, cautions and warnings that apply to
-whole instructions
-Add typographical conventions you may use
-State any equipment user needs to complete the instructions
+## Intended Audience
+
+This documentation is intended for the following users:
+
+- Beginner developers who are new to using Git and GitHub
+- Developers who would like to learn more advance techniques such as forking, and creating pull requests
 
 ## What is Git?
 
@@ -36,22 +36,16 @@ So to sum it up, just like how you would edit, save, export, and print a Word do
 
 GitHub is a website that allows developers to store their code in a remote repository. It is a popular platform for developers to collaborate on projects and share their code with others. GitHub is a great tool for developers to use to manage their code and collaborate with others. In this guide, we will be learning how to use GitHub to manage our code and collaborate with others.
 
-## Is This Guide for You?
-
-<!-- Can change this section name, taken from example -->
-
 ## Software and Prerequisites
 
 This guide was written for the Windows 10 operating system. In the specific guide, we will be using Git version 2.37.3 for Windows, and Visual Studio Code version 1.76.2. If you are using a different operating system, such as MacOS or Linus, some steps and commands in this guide may not be suitable. Specific guides for other operating systems are available online.
 
-### Prerequisites
-
-Before continuing, ensure that you have:
+Before continuing, ensure that you have the following:
 
 - Windows 10 installed on your computer
-- A github account
-- Git installed
-- Visual Studio Code installed
+- A [GitHub](https://github.com) account
+- [Git](https://git-scm.com/) version 2.37.3
+- [Visual Studio Code](https://code.visualstudio.com/) version 1.76.2 or higher
 
 #### Registering for Github
 
@@ -81,3 +75,29 @@ You can register for a github account at <https://github.com/join>.
 #### Installing Visual Studio Code
 
 Visual Studio Code is a free, open-source code editor that is available for Windows, MacOS, and Linux. You can download Visual Studio Code at <https://code.visualstudio.com/download>. Ensure that you download the correct installer for your operating system.
+
+## Typographic Conventions
+
+## Notes and Warning Convention
+
+Throughout the document we will use several different conventions to highlight important information. The following conventions are ordered from most to least important.
+
+!!! Danger
+
+      This is a danger message. It is used to highlight information that is critical to the guide.
+
+!!! Warning
+
+      This is a warning message. It is used to highlight information that is important to the guide, or things for the user to look out for.
+
+!!! Tip
+
+      This is a tip message. It is used to highlight information that may help the user to complete a task.
+
+!!! Info
+
+      This is an info message. It is used to provide extra information to broaden the user's understanding.
+
+!!! Success
+
+      This is a success message. It is used to highlight that the user has successfully completed a task.

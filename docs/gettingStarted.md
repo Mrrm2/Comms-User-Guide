@@ -1,6 +1,6 @@
 # Getting Started With Git and GitHub
 
-!!! Warning "Prerequisites"
+!!! Danger "Prerequisites"
 
     Before continuing with the guide, make sure you have completed the following prerequisites:
     <ul>
@@ -34,19 +34,17 @@
     <img src="/images/gettingStarted/visibilityRepository.png" alt= "Selecting the visability of the new repository" width="650px">
     <br />
 
-    !!! Warning
+    !!! Info
 
             Public repositories are visible to anyone on the internet. Private repositories are only visible to the owner and collaborators. If you are unsure which option to choose, select private. The visibility of your repository can be changed at any time.
 
 5.  Check the box that says “Initialize this repository with a README” to create a README file in your repository that you can edit later.
+
+    A README file is a text file that contains information about your project. _It is always best practice to include a README file in your repository_ because it will help other people understand what your project is about. For more information about README files, see <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes>.
     <br />
     <br />
     <img src="/images/gettingStarted/readMeRepository.png" alt= "Creating a README file for the new repository" width="650px">
     <br />
-
-    !!! Tip
-
-            A README file is a text file that contains information about your project. *It is always best practice to include a README file in your repository* because it will help other people understand what your project is about. For more information about README files, see <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes>.
 
 6.  Click the “Create repository” button at the bottom of the page when you are ready to finalize the changes and create your repository.
     <br />
@@ -98,16 +96,21 @@
 
 After making some changes in your local repository, you can add them to the remote repository on GitHub. To do this, you will need to follow the Git workflow. If you need a refresher on the Git workflow, you can review the Git workflow section in the introduction page. To add files to the repository, follow the steps below:
 
-<!-- TODO: maybe move some of this stuff -->
+!!! Danger "Double Check"
 
-!!! Warning
+    Make sure that the directory displayed in the terminal is the directory of your local repository before continuing.
+        <ul>
+            <li>Use the `pwd` command to see your working directory</li>
+            <li>Navigate to the correct by using the `cd` command if the working directory is not the directory of your local repository</li>
+            <li>Use the `cd ..` command to navigate to the parent directory of the current directory</li>
+        </ul>
 
-    Make sure that the terminal directory is the directory of your local repository before you start adding files to the repository. If you are not sure what directory you are in, you can use the `pwd` command to print the working directory. If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
+    For more information on Windows command line commands, see <https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/>.
 
-1.  Change your terminal directory to the directory of your local repository by typing `cd [directory name]` into the terminal. Replace the `[directory name]` with the name of the directory you created in the previous section.
+1.  Change your working directory to the directory of your local repository by typing `cd [directory name]` into the terminal. Replace the `[directory name]` with the name of the directory you created in the previous section.
     <br />
     <br />
-    <img src="/images/gettingStarted/gitCd.png" alt= "Changing the terminal directory" width="650px">
+    <img src="/images/gettingStarted/gitCd.png" alt= "Changing the working directory" width="650px">
     <br />
 
 2.  Use the `git add` command to add the files to the staging area. If you want to add a file called `index.html`, type `git add index.html` into the terminal. Alternatively, you can add all the files in the directory by typing `git add .` into the terminal.
@@ -118,7 +121,7 @@ After making some changes in your local repository, you can add them to the remo
 
     !!! Info "`git add`"
 
-               This is the first step of the Git workflow. The staging area is a temporary area where you can add files before committing them to the repository. You can add as many files as you want to the staging area before committing them to the repository. For more information about the Git workflow, you can review the Git workflow section in the introduction page.
+               This is the first step of the Git workflow. The staging area is a temporary area where you can add files before committing them to the repository. You can add as many files as you want to the staging area before committing them to the repository. For more information about the Git workflow, you can review the Git workflow section in the [What is Git](/#what-is-git) section.
 
     !!! Tip
 
@@ -132,7 +135,7 @@ After making some changes in your local repository, you can add them to the remo
 
     !!! Info "`git commit`"
 
-            This is the second step of the Git workflow. After adding the files to the staging area, you can commit them to the repository. For more information about the Git workflow, you can review the Git workflow section in the introduction page.
+            This is the second step of the Git workflow. After adding the files to the staging area, you can commit them to the repository. For more information about the Git workflow, you can review the Git workflow section in the [What is Git](/#what-is-git) section.
 
     !!! Info "Best Practices"
 
@@ -146,7 +149,7 @@ After making some changes in your local repository, you can add them to the remo
 
     !!! Info "`git push`"
 
-            This is the third step of the Git workflow. After committing the changes, you can push them to the remote repository on GitHub. For more information about the Git workflow, you can review the Git workflow section in the introduction page.
+            This is the third step of the Git workflow. After committing the changes, you can push them to the remote repository on GitHub. For more information about the Git workflow, you can review the Git workflow section in the [What is Git](/#what-is-git) section.
 
     !!! Success "Congratulations!"
 

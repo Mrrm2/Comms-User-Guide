@@ -16,7 +16,7 @@ You can find more information about forking a repository on the [GitHub document
     <img src="/images/forksAndPR/openFolder.png" alt= "Opening folder" width="650px">
     <br />
 
-3.  Open a new terminal window in Visual Studio Code by clicking on the “Terminal” tab in the top menu bar and selecting “New Terminal”. The terminal directory should be the directory where you want to fork the repository. We will come back to this terminal window later.
+3.  Open a new terminal window in Visual Studio Code by clicking on the “Terminal” tab in the top menu bar and selecting “New Terminal”. The working directory should be the directory where you want to fork the repository. We will come back to this terminal window later.
     <br />
     <br />
     <img src="/images/forksAndPR/openTerminal.png" alt= "Opening terminal" width="650px">
@@ -24,8 +24,7 @@ You can find more information about forking a repository on the [GitHub document
 
     !!! Tip "Tip"
 
-          If you are not sure what directory you are in, you can use the `pwd` command to print the working directory.
-          If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
+          Revisit [Adding Files to Repository](/gettingStarted/#adding-files-to-the-repository) for more information on how to change your working directory.
 
 4.  Go on [GitHub](https://github.com) and find a repository you want to fork. Click on the "Fork" button in the top right corner. This will create a copy of the repository in your own GitHub account.
     <br />
@@ -61,16 +60,17 @@ You can find more information about forking a repository on the [GitHub document
 
 10. Create a new branch for your changes using the command `git checkout -b [branch name]`.
 
-You can name the branch whatever you want, but it is a good idea to name it something that describes the changes you are making. For example, if you are adding a new feature, you could name the branch "add-feature".
-<br />
-<br />
-<img src="/images/forksAndPR/createBranch.png" alt= "Image showing how create a branch" width="650px">
-<br />
-<!-- TODO: Explain branch -->
+    You can name the branch whatever you want, but it is a good idea to name it something that describes the changes you are making. For example, if you are adding a new feature, you could name the branch "add-feature".
+    <br />
+    <br />
+    <img src="/images/forksAndPR/createBranch.png" alt= "Image showing how create a branch" width="650px">
+    <br />
+
+    <!-- TODO: Explain branch -->
 
     !!! Success "Success"
 
-              You have now successfully created a forked repository and cloned it to your local machine. You can now make changes to the repository and push them to your forked repository on GitHub. This will allow you to make changes to the repository without affecting the main branch.
+            You have now successfully created a forked repository and cloned it to your local machine. You can now make changes to the repository and push them to your forked repository on GitHub. This will allow you to make changes to the repository without affecting the main branch.
 
 ## How to Submit a Pull Request
 
@@ -92,7 +92,7 @@ You can name the branch whatever you want, but it is a good idea to name it some
 
            Make sure you are on the GitHub page for the original repository and not your forked repository.
 
-    !!! Warning "Warning"
+    !!! Tip "No Compare & Pull Request button?"
 
            If you do not see the "Compare & pull request" button, it means that you do not have permission to create a pull request. This is because you do not have write access to the original repository. You will need to contact the owner of the original repository and ask them to give you write access.
 

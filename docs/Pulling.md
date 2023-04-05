@@ -4,14 +4,13 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
 
 ## Pulling from a remote repository
 
-1.  First, open Visual Studio Code and open the directory of your local repository. You can do this by clicking on the “File” menu in the top left and selecting “Open Folder”.
+1.  Open Visual Studio Code and open the directory of your local repository. You can do this by clicking on the “File” menu in the top left and selecting “Open Folder”.
 
-2.  Open a terminal instance by clicking on the “Terminal” tab in the top left and selecting “New Terminal”. Ensure that the terminal directory is the directory of your local repository.
+2.  Open a terminal instance by clicking on the “Terminal” tab in the top left and selecting “New Terminal”. Ensure that the working directory is the directory of your local repository.
 
     !!! Tip "Tip"
 
-          If you are not sure what directory you are in, you can use the `pwd` command to print the working directory.
-          If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
+          Revisit [Adding Files to Repository](/gettingStarted/#adding-files-to-the-repository) for more information on how to change your working directory.
 
 3.  Input the following commands into the terminal to check the status of your local repository:
 
