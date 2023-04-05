@@ -1,5 +1,14 @@
 # Introduction
 
+<!-- TODO -->
+
+State purpose of instructions
+State who the instructions are aimed at
+Add notes, cautions and warnings that apply to
+whole instructions
+Add typographical conventions you may use
+State any equipment user needs to complete the instructions
+
 ## What is Git?
 
 Git is a powerful tool used heavily throughout the software development industry. It is used to track changes in code, collaborate with other developers, and manage projects. In this guide, we will be learning how to use Git to manage our code and the basic Git workflow.

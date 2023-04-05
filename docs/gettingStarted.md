@@ -38,7 +38,7 @@
 
             Public repositories are visible to anyone on the internet. Private repositories are only visible to the owner and collaborators. If you are unsure which option to choose, select private. The visibility of your repository can be changed at any time.
 
-5.  If you want to include a README file, check the box that says “Initialize this repository with a README”. This will create a README file in your repository that you can edit later.
+5.  Check the box that says “Initialize this repository with a README” to create a README file in your repository that you can edit later.
     <br />
     <br />
     <img src="/images/gettingStarted/readMeRepository.png" alt= "Creating a README file for the new repository" width="650px">
@@ -48,7 +48,7 @@
 
             A README file is a text file that contains information about your project. *It is always best practice to include a README file in your repository* because it will help other people understand what your project is about. For more information about README files, see <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes>.
 
-6.  When you are ready to finalize the changes and create your repository, click the “Create repository” button at the bottom of the page.
+6.  Click the “Create repository” button at the bottom of the page when you are ready to finalize the changes and create your repository.
     <br />
     <br />
     <img src="/images/gettingStarted/createFinalRepository.png" alt= "Finalize creating the repository" width="650px">
@@ -56,17 +56,13 @@
 
 ## Creating a Local Copy of the Repository
 
-1.  Create a folder on your computer to store the repository. Use file explorer to navigate to the directory where you want to store your project's code, right click and create a new folder for the project.
-    <br />
-    <br />
-    <img src="/images/gettingStarted/createFolder.png" alt= "Create new folder for project" width="650px">
-    <br />
+1.  Use file explorer to create a folder on your computer where you want to store your repository.
 
     !!! Tip
 
             It is always best practice to create a new folder for each project you work on. This will keep your projects organized and make it easier to find them later.
 
-2.  Open Visual Studio Code and open the directory you just created. To do this, click on the “File” tab in the top left corner of the screen and select “Open Folder”. Navigate to the directory you just created, select it and click the “Select Folder” button.
+2.  Open Visual Studio Code, click on the “File” tab in the top left corner of the screen and select “Open Folder”. Navigate to the directory you just created, select it and click the “Select Folder” button.
     <br />
     <br />
     <img src="/images/gettingStarted/openFolder.png" alt= "Open folder in Visual Studio Code" width="650px">
@@ -78,13 +74,13 @@
     <img src="/images/gettingStarted/openTerminalVSCode.png" alt= "Open terminal in Visual Studio Code" width="650px">
     <br />
 
-4.  Next, navigate to the GitHub repository you created in steps 2 to 6 of the previous section. Click on the “Code” button and copy the URL of the repository.
+4.  Navigate to the GitHub repository you created in steps 2 to 6 of the previous section. Click on the “Code” button and copy the URL of the repository.
     <br />
     <br />
     <img src="/images/gettingStarted/gitLink.png" alt= "Copy the URL of the remote repository" width="650px">
     <br />
 
-5.  Back in the Visual Studio Code terminal, use the `git clone [repository URL]` command to link the remote repository to your local repository. Replace the `[repository URL]` with the URL you copied in the previous step.
+5.  Return to the Visual Studio Code terminal, and use the `git clone [repository URL]` command to link the remote repository to your local repository. Replace the `[repository URL]` with the URL you copied in the previous step.
     <br />
     <br />
     <img src="/images/gettingStarted/gitClone.png" alt= "Cloning the remote repository" width="650px">
@@ -102,22 +98,19 @@
 
 After making some changes in your local repository, you can add them to the remote repository on GitHub. To do this, you will need to follow the Git workflow. If you need a refresher on the Git workflow, you can review the Git workflow section in the introduction page. To add files to the repository, follow the steps below:
 
-1.  First, change your terminal directory to the directory of your local repository. To do this, type `cd [directory name]` into the terminal. Replace the `[directory name]` with the name of the directory you created in the previous section.
+<!-- TODO: maybe move some of this stuff -->
+
+!!! Warning
+
+    Make sure that the terminal directory is the directory of your local repository before you start adding files to the repository. If you are not sure what directory you are in, you can use the `pwd` command to print the working directory. If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
+
+1.  Change your terminal directory to the directory of your local repository by typing `cd [directory name]` into the terminal. Replace the `[directory name]` with the name of the directory you created in the previous section.
     <br />
     <br />
     <img src="/images/gettingStarted/gitCd.png" alt= "Changing the terminal directory" width="650px">
     <br />
 
-    !!! Warning
-
-            The directory in the terminal must be the same as the directory you created in the previous section.
-
-    !!! Tip "Tip"
-
-          If you are not sure what directory you are in, you can use the `pwd` command to print the working directory.
-          If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
-
-2.  Use the `git add` command to add the files to the staging area. For example, if you want to add a file called `index.html`, type `git add index.html` into the terminal. Alternatively, you can add all the files in the directory by typing `git add .` into the terminal.
+2.  Use the `git add` command to add the files to the staging area. If you want to add a file called `index.html`, type `git add index.html` into the terminal. Alternatively, you can add all the files in the directory by typing `git add .` into the terminal.
     <br />
     <br />
     <img src="/images/gettingStarted/gitAdd.png" alt= "Adding files to the staging area" width="650px">
@@ -131,7 +124,7 @@ After making some changes in your local repository, you can add them to the remo
 
                If at anytime you are unsure about what files are in the staging area, you can type `git status` into the terminal. This will show you a list of all the files in the staging area.
 
-3.  After adding the files to the staging area, commit the changes using the `git commit -m "[Your commit message]"` command. Replace the `[Your commit message]` with a message that describes the changes you made. For example, if you added a new file called `index.html`, you can write a commit message like “Add index.html file”.
+3.  Commit the changes using the `git commit -m "[Your commit message]"` command. Replace the `[Your commit message]` with a message that describes the changes you made. For example, if you added a new file called `index.html`, you can write a commit message like “Add index.html file”.
     <br />
     <br />
     <img src="/images/gettingStarted/gitCommit.png" alt= "Committing the changes" width="650px">
@@ -145,7 +138,7 @@ After making some changes in your local repository, you can add them to the remo
 
             It is always best practice to add a message when committing your changes. This will help you and others understand what changes you made. It is also best to write a commit message starting with a verb in the present tense. For example, if you fixed a bug in the code, you can write a commit message like “Fix bug in code”.
 
-4.  Finally, use the `git push` command in the terminal. This will push the changes to the remote repository on GitHub. You should see a similar output message in the terminal.
+4.  Use the `git push` command in the terminal. This will push the changes to the remote repository on GitHub. You should see a similar output message in the terminal.
     <br />
     <br />
     <img src="/images/gettingStarted/gitPush.png" alt= "Pushing the changes to the remote repository" width="650px">

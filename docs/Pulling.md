@@ -30,19 +30,17 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
 
         The `git remote update` command will update the local repository with the latest changes from GitHub. The `git status` command will check the status of your local repository. This will show you if you have any uncommitted changes.
 
-4.  Use the `git pull` command to pull any changes made to the repository. This will update your local repository with the latest changes from GitHub. You should see a description of the changes that were pulled from GitHub.
+4.  Use the `git pull` command to pull any changes made to the repository.
     <br />
     <br />
     <img src="/images/pulling/gitPull.png" alt= "Pulling code from repository" width="650px">
     <br />
 
-    !!! Success "Success"
-
-        If you do not receive any error messages, you have successfully pulled the latest changes from GitHub. You can now continue working on your project!
+    This will update your local repository with the latest changes from GitHub. You should see a description of the changes that were pulled from GitHub.
 
     !!! Warning "Merge conflicts"
 
-        If you receive a message that says `Automatic merge failed; fix conflicts and then commit the result`, this means that there are merge conflicts in your local repository. You will need to resolve the merge conflicts before you can push your changes to GitHub. Please refer to the [Resolving merge conflicts](#resolving-merge-conflicts) section for instructions on resolving merge conflicts.
+            If you receive a message that says `Automatic merge failed; fix conflicts and then commit the result`, this means that there are merge conflicts in your local repository. You will need to resolve the merge conflicts before you can push your changes to GitHub. Please refer to the [Resolving merge conflicts](#resolving-merge-conflicts) section for instructions on resolving merge conflicts.
 
 5.  If you receive additional error messages, please refer to the [Troubleshooting](/docs/troubleshooting) page for help.
 

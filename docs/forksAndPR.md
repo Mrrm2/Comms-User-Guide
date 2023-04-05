@@ -8,7 +8,7 @@ You can find more information about forking a repository on the [GitHub document
 
 ## How to Fork a Repository
 
-1.  First create a new folder on your computer to store the repository. To do this, open your file explorer, navigate to the directory where you want to store your project's code, right click and create a new folder for the project.
+1.  Create a new folder on your computer to store the repository. To do this, open your file explorer, navigate to the directory where you want to store your project's code, right click and create a new folder for the project.
 
 2.  Open Visual Studio Code and open your repository directory. Click on the “File” tab in the top left corner of the screen and select “Open Folder”. Navigate to the directory you just created, select it and click the “Select Folder” button.
     <br />
@@ -43,7 +43,7 @@ You can find more information about forking a repository on the [GitHub document
     <img src="/images/forksAndPR/createFork.png" alt= "Image showing how to fork repository" width="650px">
     <br />
 
-6.  Next, navigate to your forked repository on GitHub by going to your GitHub profile and clicking on the repository name.
+6.  Navigate to your forked repository on GitHub by going to your GitHub profile and clicking on the repository name.
 
 7.  Copy the URL from the "Code" dropdown button on GitHub.
     <br />
@@ -59,12 +59,14 @@ You can find more information about forking a repository on the [GitHub document
 
 9.  Change your current directory to the directory of your local repository by using the `cd` command. For a refresher, see the tip in step 3.
 
-10. Create a new branch for your changes using the command `git checkout -b [branch name]`. You can name the branch whatever you want, but it is a good idea to name it something that describes the changes you are making. For example, if you are adding a new feature, you could name the branch "add-feature".
-    <br />
-    <br />
-    <img src="/images/forksAndPR/createBranch.png" alt= "Image showing how create a branch" width="650px">
-    <br />
-    <!-- TODO: Explain branch -->
+10. Create a new branch for your changes using the command `git checkout -b [branch name]`.
+
+You can name the branch whatever you want, but it is a good idea to name it something that describes the changes you are making. For example, if you are adding a new feature, you could name the branch "add-feature".
+<br />
+<br />
+<img src="/images/forksAndPR/createBranch.png" alt= "Image showing how create a branch" width="650px">
+<br />
+<!-- TODO: Explain branch -->
 
     !!! Success "Success"
 
