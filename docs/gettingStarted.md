@@ -112,6 +112,11 @@ After making some changes in your local repository, you can add them to the remo
 
             The directory in the terminal must be the same as the directory you created in the previous section.
 
+    !!! Tip "Tip"
+
+          If you are not sure what directory you are in, you can use the `pwd` command to print the working directory.
+          If the terminal directory is not the directory of your local repository, navigate to the directory of your local repository by using the `cd` command. For example, type `cd Documents/my-repo` to navigate to a directory called `my-repo` in your `Documents` folder. Alternatively, you can use the `cd ..` command to navigate to the parent directory of the current directory. For example, type `cd ..` to navigate to the parent directory of the current directory.
+
 2.  Use the `git add` command to add the files to the staging area. For example, if you want to add a file called `index.html`, type `git add index.html` into the terminal. Alternatively, you can add all the files in the directory by typing `git add .` into the terminal.
     <br />
     <br />
