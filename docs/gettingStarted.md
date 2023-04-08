@@ -220,3 +220,11 @@ After making some changes in your local repository, you can add them to the remo
     !!! Success "Congratulations!"
 
             You have successfully pushed your code to GitHub. You should now be able to see your code on GitHub. When you make more changes in the future, you can follow the same steps to push your code to GitHub.
+
+
+## Conclusion
+By now, you should be able to:
+
+- [x] create a remote repository on GitHub
+- [x] create a local copy of a repository on your computer
+- [x] add files to the repository

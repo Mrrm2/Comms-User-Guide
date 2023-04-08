@@ -18,6 +18,11 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 nav:
   - Home: 'index.md'
   - 'gettingStarted.md'
