@@ -36,7 +36,7 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
     git status
     ```
 
-    If you do have uncommitted changes, you will need to **commit them before you can pull** any changes from GitHub. Please refer to the [Getting Started](/gettingStarted/#adding-files-to-the-repository) page for instructions on committing changes. If you do not have any uncommitted changes or have committed your changes, you can proceed to the next step.
+    If you do have uncommitted changes, you will need to **commit them before you can pull** any changes from GitHub. Please refer to the [Getting Started](../gettingStarted/#adding-files-to-the-repository) page for instructions on committing changes. If you do not have any uncommitted changes or have committed your changes, you can proceed to the next step.
     <br />
     <br />
     <img src="../images/pulling/gitStatus.png" alt= "Checking local repository" width="650px">
