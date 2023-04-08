@@ -225,8 +225,8 @@ After making some changes in your local repository, you can add them to the remo
 ## Conclusion
 By the end of this section you will have successfully learned about and completed the following tasks:
 
-- [x] create a remote repository on GitHub
-- [x] create a local copy of a repository on your computer
-- [x] add files to the repository
-    <br />
-    <br />
+- [x] Create a remote repository on GitHub
+- [x] Create a local copy of a repository on your computer
+- [x] Add files to the repository
+
+Congratulations! You have successfully completed the **Getting Started** section. Use the following link to move onto the **[Pulling and Merge Conflicts](/pullingAndMerge/)** section.
