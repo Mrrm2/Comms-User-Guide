@@ -351,7 +351,7 @@
 
 <h1 id="pulling-and-resolving-merge-conflicts">Pulling and Resolving Merge Conflicts</h1>
 <h2 id="overview">Overview</h2>
-<p>This guide will walk you through the process of creating a repository on GitHub and cloning it to your local machine. You will also learn how to add files to the repository you created and push them to GitHub. 
+<p>This guide will walk you through the process of creating a repository on GitHub and cloning it to your local machine. You will also learn how to add files to the repository you created and push them to GitHub.
 Since GitHub is a collaborative platform, others can contribute to a repository as well. You may find that the copy of the repository on your computer is different from what is on GitHub. Therefore, it is important to know how to pull changes from a remote repository and resolve merge conflicts. This guide will walk you through the process of pulling changes from a remote repository and resolving merge conflicts.</p>
 <h2 id="pulling-from-a-remote-repository">Pulling from a remote repository</h2>
 <ol>
@@ -360,7 +360,7 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
 <p>You can do this by clicking on the <strong>“File”</strong> menu in the top left and selecting <strong>“Open Folder”</strong>.
 <br />
 <br />
-<img src="/images/gettingStarted/clickOpenFolder.png" alt= "Click open folder in Visual Studio Code" width="650px">
+<img src="../images/gettingStarted/clickOpenFolder.png" alt= "Click open folder in Visual Studio Code" width="650px">
 <br />
 <br /></p>
 </li>
@@ -369,11 +369,11 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
 <p>Ensure that the working directory is the directory of your local repository.
 <br />
 <br />
-<img src="/images/gettingStarted/openTerminalVSCode.png" alt= "Open terminal in Visual Studio Code" width="650px">
+<img src="../images/gettingStarted/openTerminalVSCode.png" alt= "Open terminal in Visual Studio Code" width="650px">
 <br /></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Revisit <a href="/gettingStarted/#adding-files-to-the-repository">Adding Files to Repository</a> for more information on how to change your working directory.</p>
+<p>Revisit <a href="../gettingStarted/#adding-files-to-the-repository">Adding Files to Repository</a> for more information on how to change your working directory.</p>
 </div>
 <p><br /></p>
 </li>
@@ -385,7 +385,7 @@ git<span class="w"> </span>status
 <p>If you do have uncommitted changes, you will need to <strong>commit them before you can pull</strong> any changes from GitHub. Please refer to the <a href="/gettingStarted/#adding-files-to-the-repository">Getting Started</a> page for instructions on committing changes. If you do not have any uncommitted changes or have committed your changes, you can proceed to the next step.
 <br />
 <br />
-<img src="/images/pulling/gitStatus.png" alt= "Checking local repository" width="650px">
+<img src="../images/pulling/gitStatus.png" alt= "Checking local repository" width="650px">
 <br /></p>
 <div class="admonition info">
 <p class="admonition-title"><code>git remote update</code> and <code>git status</code></p>
@@ -397,7 +397,7 @@ git<span class="w"> </span>status
 <p>Use the <strong><code>git pull</code></strong> command to pull any changes made to the repository.
     <br />
     <br />
-    <img src="/images/pulling/gitPull.png" alt= "Pulling code from repository" width="650px">
+    <img src="../images/pulling/gitPull.png" alt= "Pulling code from repository" width="650px">
     <br /></p>
 <p>This will update your local repository with the latest changes from GitHub. You should see a description of the changes that were pulled from GitHub.</p>
 <div class="admonition warning">
@@ -407,7 +407,7 @@ git<span class="w"> </span>status
 <p><br /></p>
 </li>
 <li>
-<p>If you receive additional error messages, please refer to the <a href="/docs/troubleshooting">Troubleshooting</a> page for help.
+<p>If you receive additional error messages, please refer to the <a href="../troubleshooting">Troubleshooting</a> page for help.
     <br />
     <br /></p>
 <div class="admonition success">
@@ -425,7 +425,7 @@ git<span class="w"> </span>status
 <p>For example, the image below shows that the file <code>file1.html</code> has conflicts.
 <br />
 <br />
-<img src="/images/pulling/gitConflict.png" alt= "Merge conflict" width="650px">
+<img src="../images/pulling/gitConflict.png" alt= "Merge conflict" width="650px">
 <br />
 <br /></p>
 </li>
@@ -434,7 +434,7 @@ git<span class="w"> </span>status
 <p>Below is an example of what you might see in a file with conflicts.
 <br />
 <br />
-<img src="/images/pulling/gitMerge.png" alt= "Merge conflict file" width="650px">
+<img src="../images/pulling/gitMerge.png" alt= "Merge conflict file" width="650px">
 <br /></p>
 <p>These markers indicate where the changes from both sides of the conflict begin and end.</p>
 <ul>
@@ -457,7 +457,7 @@ git<span class="w"> </span>status
 <p>Below is an example of what the file might look like after resolving the conflict.
 <br />
 <br />
-<img src="/images/pulling/gitConflictResolved.png" alt= "Merge conflict file resolved" width="650px">
+<img src="../images/pulling/gitConflictResolved.png" alt= "Merge conflict file resolved" width="650px">
 <br />
 <br /></p>
 </li>
@@ -477,7 +477,7 @@ git<span class="w"> </span>status
 <p>Finally, use the <strong><code>git push</code></strong> command to push your changes back to GitHub.
     <br />
     <br />
-    <img src="/images/pulling/gitPushResolve.png" alt= "Pushing resolved conflict file" width="650px">
+    <img src="../images/pulling/gitPushResolve.png" alt= "Pushing resolved conflict file" width="650px">
     <br />
     <br /></p>
 <div class="admonition success">
@@ -492,7 +492,7 @@ git<span class="w"> </span>status
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> pull changes from a remote repository on GitHub</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> resolve merge conflicts</li>
 </ul>
-<p>Congratulations! You have successfully completed the <strong>Pulling and Resolving Merge Conflicts</strong> section of this user guide! Use the following link to move onto the <strong><a href="/forksAndPR">Forking a Repository</a></strong> section.</p>
+<p>Congratulations! You have successfully completed the <strong>Pulling and Resolving Merge Conflicts</strong> section of this user guide! Use the following link to move onto the <strong><a href="../forksAndPR">Forking a Repository</a></strong> section.</p>
 
 
 
