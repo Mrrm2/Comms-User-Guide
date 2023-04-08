@@ -93,6 +93,8 @@ When working as a team, it is possible that you and your team members will make 
     - The `=======` marker indicates the **end** of the changes from **your local repository** and mark the **start** of the changes from the **remote repository**.
 
     - The `>>>>>>>` marker indicates the **end** of the changes from the **remote repository**.
+    <br />
+    <br />
 
 3.  Edit the file to resolve the conflict.
 
