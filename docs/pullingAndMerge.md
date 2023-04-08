@@ -23,8 +23,9 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
     !!! Tip "Tip"
 
           Revisit [Adding Files to Repository](/gettingStarted/#adding-files-to-the-repository) for more information on how to change your working directory.
+
     <br />
-    
+
 3.  Input the following commands into the terminal to check the status of your local repository:
 
     ```bash
@@ -41,6 +42,7 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
     !!! Info "`git remote update` and `git status`"
 
         The `git remote update` command will update the local repository with the latest changes from GitHub. The `git status` command will check the status of your local repository. This will show you if you have any uncommitted changes.
+
     <br />
 
 4.  Use the **`git pull`** command to pull any changes made to the repository.
@@ -54,6 +56,7 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
     !!! Warning "Merge conflicts"
 
             If you receive a message that says `Automatic merge failed; fix conflicts and then commit the result`, this means that there are merge conflicts in your local repository. You will need to resolve the merge conflicts before you can push your changes to GitHub. Please refer to the [Resolving merge conflicts](#resolving-merge-conflicts) section for instructions on resolving merge conflicts.
+
     <br />
 
 5.  If you receive additional error messages, please refer to the [Troubleshooting](/docs/troubleshooting) page for help.
@@ -63,6 +66,7 @@ Since GitHub is a collaborative platform, others can contribute to a repository 
     !!! Success
 
           You have successfully pulled changes from a remote repository! You can now see your changes on your local repository.
+
     <br />
 
 ## Resolving merge conflicts
@@ -93,13 +97,13 @@ When working as a team, it is possible that you and your team members will make 
     - The `=======` marker indicates the **end** of the changes from **your local repository** and mark the **start** of the changes from the **remote repository**.
 
     - The `>>>>>>>` marker indicates the **end** of the changes from the **remote repository**.
-    <br />
-    <br />
+      <br />
+      <br />
 
 3.  Edit the file to resolve the conflict.
 
     You can choose to keep the changes from your local repository, the changes from the remote repository, or a combination of both. Once you have resolved the conflict, remove the conflict markers and save the file
-    
+
     Below is an example of what the file might look like after resolving the conflict.
     <br />
     <br />
@@ -130,11 +134,11 @@ When working as a team, it is possible that you and your team members will make 
 
           You have successfully solved your first merge conflict! You can now see your changes on GitHub.
 
-
 ## Conclusion
+
 By the end of this section you will have successfully learned about and completed the following tasks:
 
 - [x] pull changes from a remote repository on GitHub
 - [x] resolve merge conflicts
-    <br />
-    <br />
+
+Congratulations! You have successfully completed the **Pulling and Resolving Merge Conflicts** section of this user guide! Use the following link to move onto the **[Forking a Repository](/forksAndPR)** section.

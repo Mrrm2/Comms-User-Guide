@@ -22,7 +22,7 @@ You can find more information about forking a repository on the [GitHub document
     <img src="/images/gettingStarted/clickOpenFolder.png" alt= "Click open folder in Visual Studio Code" width="650px">
     <br />
     <br />
-    
+
 3.  Navigate to the directory you just created, select it and click the **“Select Folder”** button.
     <br />
     <br />
@@ -30,7 +30,7 @@ You can find more information about forking a repository on the [GitHub document
     <br />
     <br />
 
-4.  Open a new terminal window in Visual Studio Code by clicking on the **“Terminal”** tab in the top menu bar and selecting **“New Terminal”**. 
+4.  Open a new terminal window in Visual Studio Code by clicking on the **“Terminal”** tab in the top menu bar and selecting **“New Terminal”**.
 
     The working directory should be the directory where you want to fork the repository. We will come back to this terminal window later.
     <br />
@@ -41,6 +41,7 @@ You can find more information about forking a repository on the [GitHub document
     !!! Tip "Tip"
 
           Revisit [Adding Files to Repository](/gettingStarted/#adding-files-to-the-repository) for more information on how to change your working directory.
+
     <br />
 
 5.  Go on [GitHub](https://github.com) and find a repository you want to fork.
@@ -48,7 +49,7 @@ You can find more information about forking a repository on the [GitHub document
     <br />
 
 6.  Click on the **"Fork"** button in the top right corner.
-    
+
     This will create a copy of the repository in your own GitHub account.
     <br />
     <br />
@@ -58,6 +59,7 @@ You can find more information about forking a repository on the [GitHub document
     !!! Info "Forked Repositories"
 
         Forked repositories are a copy of the original repository. They are not linked to the original repository. This means that you can make changes to the forked repository without affecting the original repository.
+
     <br />
 
 7.  Change the repository name, or description if you want to.
@@ -66,7 +68,7 @@ You can find more information about forking a repository on the [GitHub document
     <br />
     <br />
 
-8. Click on the **"Create fork"** button to finish forking the repository.
+8.  Click on the **"Create fork"** button to finish forking the repository.
     <br />
     <br />
     <img src="/images/forksAndPR/createFork.png" alt= "Image showing how to fork repository" width="650px">
@@ -77,14 +79,14 @@ You can find more information about forking a repository on the [GitHub document
     <br />
     <br />
 
-10.  **Copy the URL** from the **"Code"** dropdown button on GitHub.
+10. **Copy the URL** from the **"Code"** dropdown button on GitHub.
     <br />
     <br />
     <img src="/images/forksAndPR/cloneFork.png" alt= "Image showing how to clone repository" width="650px">
     <br />
     <br />
 
-11.  Go back to the terminal we set up in step 3 and run the command **`git clone [repository URL]`**.
+11. Go back to the terminal we set up in step 3 and run the command **`git clone [repository URL]`**.
 
     Replace the `[repository URL]` with the **URL you copied** in the previous step.
     <br />
@@ -93,7 +95,7 @@ You can find more information about forking a repository on the [GitHub document
     <br />
     <br />
 
-12.  Change your current directory to the directory of your local repository by using the **`cd`** command.
+12. Change your current directory to the directory of your local repository by using the **`cd`** command.
 
     For a refresher, see the tip in step 4.
     <br />
@@ -102,15 +104,13 @@ You can find more information about forking a repository on the [GitHub document
 13. Create a **new branch** for your changes using the command **`git checkout -b [branch name]`**.
 
     You can name the branch whatever you want, but it is a good idea to name it something that describes the changes you are making.
-    
+
     For example, if you are adding a new feature, you could name the branch "add-feature".
     <br />
     <br />
     <img src="/images/forksAndPR/createBranch.png" alt= "Image showing how create a branch" width="650px">
     <br />
     <br />
-
-    <!-- TODO: Explain branch -->
 
     !!! Success "Success"
 
@@ -119,7 +119,7 @@ You can find more information about forking a repository on the [GitHub document
 ## How to Submit a Pull Request
 
 1.  Make the changes that you want to contribute to the original repository.
-    
+
     Once you have made and tested your changes, stage and commit them using the **`git add`**, and **`git commit`** commands.
     <br />
     <br />
@@ -146,6 +146,7 @@ You can find more information about forking a repository on the [GitHub document
     !!! Tip "No Compare & Pull Request button?"
 
            If you do not see the "Compare & pull request" button, it means that you do not have permission to create a pull request. This is because you do not have write access to the original repository. You will need to contact the owner of the original repository and ask them to give you write access.
+
     <br />
 
 4.  **Select the branch** that you want to merge into the original repository.
@@ -159,6 +160,7 @@ You can find more information about forking a repository on the [GitHub document
     !!! Info "Pull Request GUI"
 
            The dropdown menus on the left side of the screen allow you to select the branch of the original repository that you want to merge into. The dropdown menu on the right side of the screen allows you to select the branch that you want to merge from. This is where you select your local changes.
+
     <br />
 
 5.  Review the changes that you are proposing in the pull request and make sure that everything is correct.
@@ -174,4 +176,14 @@ You can find more information about forking a repository on the [GitHub document
 
             You have now successfully created a pull request. Creating a pull request will notify the owner of the original repository that you have submitted changes. The will be able to review and potentially merge your changes into their repository. This will notify the owner of the original repository that you have submitted changes and they will be able to review and potentially merge your changes into their repository.
 
-    <!-- TODO: Might be able to remove this section -->
+## Conclusion
+
+By the end of this section you will have successfully learned about and completed the following tasks:
+
+- [x] Forked a repository on GitHub
+- [x] Cloned a repository to your local machine
+- [x] Created a new branch
+- [x] Pushed your changes to your forked repository
+- [x] Created a pull request for your changes
+
+Congratulations! You have now completed the **Forking a Repository** section. This is the third and final section of this user guide. Hopefully, by now you have a better understanding of how to use Git and GitHub. If you encountered any issues, make sure to take a look at the **[Troubleshooting](/troubleshooting)** section.
