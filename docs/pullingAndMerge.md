@@ -1,5 +1,7 @@
 # Pulling and Resolving Merge Conflicts
 
+## Overview
+This guide will walk you through the process of creating a repository on GitHub and cloning it to your local machine. You will also learn how to add files to the repository you created and push them to GitHub. 
 Since GitHub is a collaborative platform, others can contribute to a repository as well. You may find that the copy of the repository on your computer is different from what is on GitHub. Therefore, it is important to know how to pull changes from a remote repository and resolve merge conflicts. This guide will walk you through the process of pulling changes from a remote repository and resolving merge conflicts.
 
 ## Pulling from a remote repository
