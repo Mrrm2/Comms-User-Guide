@@ -78,6 +78,30 @@ Visual Studio Code is a free, open-source code editor that is available for Wind
 
 ## Typographic Conventions
 
+Throughout the document we will use several different typographic conventions to highlight important information. The following are examples of various typographic conventions used in this document.
+
+1.  Code blocks and inline code
+    Code blocks and inline code blocks are used to identify commands that should be run in the terminal. `git -v` is an example of an inline code block, while the following is an example of a code block:
+
+    ```bash
+    git add .
+    git commit -m "Initial commit"
+    git push
+    ```
+
+2.  Bold text
+    Bold text is used to highlight important information such as file names, and crucial steps.
+3.  Quotation marks
+    Quotation marks are used to signify UI elements such as titles, and buttons. For example: "Open File"
+
+4.  Image annotations
+    Aspects of each image related to the instruction will be enclosed in a red box. See the following for an example of an image for the step "Copy the URL of the remote repository":
+    <br />
+    <br />
+    <img src="/images/gettingStarted/gitLink.png" alt= "Copy the URL of the remote repository" width="650px">
+    <br />
+    <br />
+
 ## Notes and Warning Convention
 
 Throughout the document we will use several different conventions to highlight important information. The following conventions are ordered from most to least important.
