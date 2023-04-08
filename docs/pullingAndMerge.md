@@ -129,3 +129,12 @@ When working as a team, it is possible that you and your team members will make 
     !!! Success "Congratulations!"
 
           You have successfully solved your first merge conflict! You can now see your changes on GitHub.
+
+
+## Conclusion
+By the end of this section you will have successfully learned about and completed the following tasks:
+
+- [x] pull changes from a remote repository on GitHub
+- [x] resolve merge conflicts
+    <br />
+    <br />
