@@ -1,1 +1,19 @@
 # Glossary
+
+| Term               | Definition                                                                                                                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Git                | A version control system that allows developers to track changes to code and collaborate on projects.                                                                                                   |
+| GitHub             | An online platform that hosts Git repositories, and is used for managing version control.                                                                                                               |
+| Repository         | A directory or storage space where a project's files and version history are stored. Repositories can be hosted locally or remotely.                                                                    |
+| Remote Repository  | A repository that is hosted on a remote server or platform.                                                                                                                                             |
+| Local Repository   | A repository that is stored on a user's local machine or network.                                                                                                                                       |
+| README File        | A text file that provides an overview of a project and its purpose. README files include high level information about the project such as installation instructions, usage examples, and project goals. |
+| Staging            | The process of preparing changes made to a codebase.                                                                                                                                                    |
+| Committing         | The process of saving changes made to a codebase to the version control system.                                                                                                                         |
+| Pushing            | The process of sending committed changes to a remote repository.                                                                                                                                        |
+| Cloning            | The process of creating a local copy of a remote repository.                                                                                                                                            |
+| Pulling            | The process of retrieving changes made to a remote repository and merging them with a local repository.                                                                                                 |
+| Merging            | The process of combining changes made to different branches of a codebase into a single branch.                                                                                                         |
+| Branches/Branching | The process of creating a copy of a codebase within a repository. This allows users to make changes, or test features without affecting the main project                                                |
+| Forking            | The process of creating a copy of a repository. Forking enables users to modify a project's codebase without affecting the original project.                                                            |
+| Pull Request       | The process of proposing changes to a repository to the repository owner.                                                                                                                               |
