@@ -2,7 +2,7 @@
 
 ## Overview
 
-Git and GitHub are powerful tools used throughout the industry to manage code and collaborate with other developers. This section will cover the basics of using Git and GitHub. It will cover topics such as creating a repository, pushing and pulling changes. By the end of this section, you should have a basic understanding of how to use Git and GitHub to collaborate with other developers.
+Git and GitHub are powerful tools used throughout the industry to manage code and collaborate with other developers. This section will cover the basics of using Git and GitHub. It will cover topics such as creating a repository, and pushing new code. By the end of this section, you should have a basic understanding of how to use Git and GitHub to collaborate with other developers.
 
 !!! Danger "Prerequisites"
 
